@@ -1,0 +1,4 @@
+No borrar esta carpeta, ya que en caso de colocarse un fondo al programa
+este sera copiado automaticamente a esta carpeta
+
+u-bite

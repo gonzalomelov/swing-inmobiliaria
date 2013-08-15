@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="LosLagos_v1.1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Objetos.Casa</class>
+    <class>Objetos.Cliente</class>
+    <class>Objetos.Pedido</class>
+    <class>Objetos.Zona</class>
+    <class>Objetos.Lugar</class>
+    <class>Objetos.Path</class>
+    <class>Objetos.Historia</class>
+    <shared-cache-mode>ALL</shared-cache-mode>
+    <validation-mode>NONE</validation-mode>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:file:./db/Base;shutdown=true"/>
+      <property name="javax.persistence.jdbc.password" value="a"/>
+      <property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver"/>
+      <property name="javax.persistence.jdbc.user" value="a"/>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

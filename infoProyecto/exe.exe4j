@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.0.3" transformSequenceNumber="1">
+  <directoryPresets config="C:/Users/Santiago/Desktop/Codigo/LosLagos_v1.1/dist/lib" />
+  <application name="Gestion Los Lagos" distributionSourceDir="C:/Users/Santiago/Desktop">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="Gestion Inmobiliaria Los Lagos" type="2" iconSet="true" iconFile="C:/Users/Santiago/Desktop/icono.ico" executableDir="." redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" amd64="false">
+    <messageSet>
+      <message id="NoJvmFound" text="Tiene que estar instalada la maquina virtual de java, descargar desde www.java.com" />
+    </messageSet>
+    <versionInfo include="true" fileVersion="1.0" fileDescription="Gestion inmobiliaria Los lagos" legalCopyright="" internalName="u-bite.com" companyName="u-bite.com" productVersion="1.0" />
+  </executable>
+  <splashScreen show="true" autoOff="true" alwaysOnTop="true" width="331" height="179" bitmapFile="F:/Dropbox/Dropbox/Inmobiliaria Los Lagos/images/icono1.png">
+    <text>
+      <statusLine x="233" y="162" text="Cargando aplicacion" font="Arial" fontSize="8" fontColor="255,255,255" fontWeight="500" />
+      <versionLine x="11" y="162" text="version 1.0" font="Arial" fontSize="8" fontColor="255,255,255" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="Formularios.Main" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" minVersion="1.3" maxVersion="" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="./lib/eclipselink-2.0.2.jar" failOnError="true" />
+      <archive location="./lib/eclipselink-javax.persistence-2.0.jar" failOnError="true" />
+      <archive location="./lib/hsqldb.jar" failOnError="true" />
+      <archive location="./lib/itextpdf-5.2.1.jar" failOnError="true" />
+      <archive location="./lib/syntheticaBlackEye.jar" failOnError="true" />
+      <archive location="./lib/syntheticaBlackMoon.jar" failOnError="true" />
+      <archive location="./lib/syntheticaBlueIce.jar" failOnError="true" />
+      <archive location="./lib/syntheticaGreenDream.jar" failOnError="true" />
+      <archive location="./lib/syntheticaOrangeMetallic.jar" failOnError="true" />
+      <archive location="./lib/syntheticaSilverMoon.jar" failOnError="true" />
+      <archive location="./lib/syntheticaSkyMetallic.jar" failOnError="true" />
+      <archive location="./Codigo/LosLagos_v1.1/dist/LosLagos_v1.1.jar" failOnError="true" />
+      <archive location="./Codigo/LosLagos_v1.1/dist/lib/synthetica.jar" failOnError="true" />
+    </classPath>
+    <nativeLibraryDirectories>
+      <directory name="./lib" />
+    </nativeLibraryDirectories>
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
